@@ -1,0 +1,75 @@
+.menu-container{
+    display:flex;
+    justify-content:center;
+    color:#fff;
+    background-color:#5995DA;
+    padding:20px 0;
+}
+.menu{
+    display:flex;
+    border:1px solid #fff;
+    width:900px;
+    justify-content:space-between;
+}
+.link{
+    display:flex;
+    justify-content:flex-end;
+}
+.Login{
+    margin-left:20px;
+}
+.head-container{
+    display:flex;
+    justify-content:center;
+    color: #599FDA;
+    background-color: #D6E9FE;
+}
+.head{
+    display:flex;
+    justify-content:space-between;
+    width:900px;
+    height:300px;
+    align-items: center;
+}
+.subscribe,.icons{
+    align-self:flex-end;
+    margin-bottom:20px;
+}
+.photogrid-container{
+    display:flex;
+    justify-content:center;
+}
+.photogrid{
+    display:flex;
+    width:905px;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction:row;       /*flex-direction:column; can be used for a column*/
+    align-items:center;
+}
+.photogrid-item{
+    width:300px;
+    height:300px;
+    border:1px solid #fff;
+}
+.first-item{
+    order:1;
+}
+.last-item{
+    order:-1;
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+}
+.footer-item{
+    border:1px solid #fff;
+    background-color:#D6E9FE;
+    height:200px;
+    flex:1;
+}
+.footer-one,.footer-three{
+    background-color:#5995DA;
+    flex:initial;                /*without flex:initial; width property would be ignored and flex:1; would be inherited*/
+    width:300px;
+}
